@@ -1,27 +1,244 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>PSU Application Form</title>
+  <title>PSU Application form</title>
   </head>
   <body>
+  <div align="center">
+    <img src="logo.jpg"width="150"/>
+  </div>
+  <div align="center">
+      <h2>ใบสมัครคัดเลือกพนักงาน ม.อ.</h2>
+  </div>
+  <form action="#" method="post">
     <div align="center">
-      <h4>ใบสมัครคัดเลือกพนักงาน ม.อ.</h4>
+      <label for="txtposition">ตำแหน่ง</label>
+      <input type="text" name="txtposition"/>
     </div>
-    <Form action="#" method="post">
-      <div align="center">
-        <label for="txtposition">ตำแหน่ง</label>
-        <label type="text" name="txtposition" />
-      </div>
-      <div>
-        <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
-        <label type="text" name="txtorg" /><br />
-        <label for="txtsalary">เงินเดือนที่ต้องการ</label>
-        <label type="text" name="txtsalary" />
-      </div>
-      <p>
-        Test for github
-      </p>
-    </Form>
-  </body>
-</html>
+    <div><br>
+      <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
+      <input type="text"name="txtorg"/><br><br>
+      <label for="txta">เงินเดือนที่ต้องการ</label>
+      <input type="text"name="txta"/> บาท &nbsp;
+      ลักษณะงาน&nbsp;
+      <input type="radio" name="time" value="full-time"/>&nbsp; full-time
+      <input type="radio" name="time" value="past-time"/>&nbsp; past-time<br><br>
+    <div>
+      <h4><b>1.ข้อมูลทั่วไป</b></h4>
+      <br />
+      <label for="information">เลขบัตรประชาชน</label>
+      <input type="text" name="information"/><br /><br />
+      <label for="name">ชื่อ&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="name"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="sirname">นามสกุล&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="sirname"/>&nbsp;&nbsp;&nbsp;
+      เพศ&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="sex" value="man"/>&nbsp;ชาย
+      <input type="radio" name="sex" value="women"/>&nbsp;หญิง&nbsp;&nbsp;
+      <label for="birthday">วัน/เดือน/ปีเกิด&nbsp;&nbsp;</label>
+      <input type="text" name="birthday"/>&nbsp;&nbsp;
+      <label for="year">อายุ&nbsp;&nbsp;</label>
+      <input type="text" name="year"/>&nbsp;&nbsp;ปี <br />
+      <label for="race">เชื้อชาติ&nbsp;&nbsp;</label>
+      <input type="text" name="race"/>&nbsp;&nbsp;
+      <label for="nationality">สัญชาติ&nbsp;&nbsp;</label>
+      <input type="text" name ="nationality"/><br /><br />
+    </div>
+    <div>
+      <h4><b>2.สถานที่ติดต่อได้สะดวก</b></h4>
+      <br />
+      <label for="home">บ้านเลขที่&nbsp;&nbsp;</label>
+      <input type="text" name="home"/>&nbsp;&nbsp;
+      <label for="swine">หมู่&nbsp;&nbsp;</label>
+      <input type="text" name="swine"/>&nbsp;&nbsp;
+      <label for="swine">หมู่บ้าน&nbsp;&nbsp;</label>
+      <input type="text" name="swine"/>&nbsp;&nbsp;
+      <label for="alley">ตรอก/ซอย&nbsp;&nbsp;</label>
+      <input type="text" name="alley"/>&nbsp;&nbsp;
+      <label for="road">ถนน&nbsp;&nbsp;</label>
+      <input type="text" name="road"/>&nbsp;&nbsp;<br>
+      <label for="district">ตำบล/แขวน&nbsp;&nbsp;</label>
+      <input type="text" name="district"/>&nbsp;&nbsp;
+      <label for="canton">อำเภอ&nbsp;&nbsp;</label>
+      <input type="text" name="canton"/>&nbsp;&nbsp;
+      <label for="county">จังหวัด&nbsp;&nbsp;</label>
+      <input type="text" name="county"/>&nbsp;&nbsp;<br>
+      <label for="zipcode">รหัสไปรษณีย์&nbsp;&nbsp;</label>
+      <input type="text" name="zipcode"/>&nbsp;&nbsp;
+      <label for="call">โทรศัพท์&nbsp;&nbsp;</label>
+      <input type="text" name="call"/>&nbsp;&nbsp;
+      <label for="mail">E-mail&nbsp;&nbsp;</label>
+      <input type="text" name="mail"/><br /><br />
+    </div>
+    <div>
+      <h4><b>3.วุฒิการศึกษา</b></h4>
+      <input type="checkbox" name="class" value="classone"/>&nbsp;&nbsp;<u>ปริญญาตรี</u>&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="study">วุฒิการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="study"/>&nbsp;&nbsp;
+      <label for="branch">สาขา&nbsp;&nbsp;</label>
+      <input type="text" name="branch"/> <br />
+      <label for="education">สถาบันการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="education">&nbsp;&nbsp;&nbsp;
+      <label for="lastyear">สำเร็จ พ.ศ.&nbsp;&nbsp;</label>
+      <input type="text" name="lastyear"/> <br />
+      <label for="grad">เกรดเฉลี่ย&nbsp;&nbsp;</label>
+      <input type="text" name="grad">
+      <br /><br />
+      <input type="checkbox" name="class" value="classone"/>&nbsp;&nbsp;<u>ปริญญาโท</u>&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="study">วุฒิการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="study"/>&nbsp;&nbsp;
+      <label for="branch">สาขา&nbsp;&nbsp;</label>
+      <input type="text" name="branch"/> <br />
+      <label for="education">สถาบันการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="education">&nbsp;&nbsp;&nbsp;
+      <label for="lastyear">สำเร็จ พ.ศ.&nbsp;&nbsp;</label>
+      <input type="text" name="lastyear"/> <br />
+      <label for="grad">เกรดเฉลี่ย&nbsp;&nbsp;</label>
+      <input type="text" name="grad">
+      <br /><br />
+      <input type="checkbox" name="class" value="classone"/>&nbsp;&nbsp;<u>ปริญญาเอก</u>&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="study">วุฒิการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="study"/>&nbsp;&nbsp;
+      <label for="branch">สาขา&nbsp;&nbsp;</label>
+      <input type="text" name="branch"/> <br />
+      <label for="education">สถาบันการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="education">&nbsp;&nbsp;&nbsp;
+      <label for="lastyear">สำเร็จ พ.ศ.&nbsp;&nbsp;</label>
+      <input type="text" name="lastyear"/> <br />
+      <label for="grad">เกรดเฉลี่ย&nbsp;&nbsp;</label>
+      <input type="text" name="grad">
+      <br /><br />
+      <input type="checkbox" name="class" value="classone"/>&nbsp;&nbsp;<u>อื่นๆ</u>&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="study">วุฒิการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="study"/>&nbsp;&nbsp;
+      <label for="branch">สาขา&nbsp;&nbsp;</label>
+      <input type="text" name="branch"/> <br />
+      <label for="education">สถาบันการศึกษา&nbsp;&nbsp;</label>
+      <input type="text" name="education">&nbsp;&nbsp;&nbsp;
+      <label for="lastyear">สำเร็จ พ.ศ.&nbsp;&nbsp;</label>
+      <input type="text" name="lastyear"/> <br />
+      <label for="grad">เกรดเฉลี่ย&nbsp;&nbsp;</label>
+      <input type="text" name="grad">
+    </div>
+    <div>
+      <h4><b>ประวัติการทำงาน เรียงลำดับจากครั้งสุดท้ายไปครั้งแรก</b></h4>
+      <label for="work">สถานที่ทำงานครั้งสุดท้าย&nbsp;&nbsp;</label>
+      <input type="text" name="work"/><br />
+      <label for="point">ตำแหน่ง&nbsp;&nbsp;</label>
+      <input type="text" name="point"/><br />
+      <label for="start">ตั้งแต่เดือน&nbsp;&nbsp;</label>
+      <input type="text" name="start"/>&nbsp;
+      <label for="years">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="years"/>&nbsp;
+      <label for="end">ถึงเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="end"/>&nbsp;
+      <label for="yearss">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="yearss"/>&nbsp;
+      <label for="money">เงินเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="money">บาท<br />
+      <label for="out">สาเหตุที่ออก&nbsp;</label>
+      <input type="text" name="out">
+      <br /><br />
+      <label for="work">สถานที่ทำงาน&nbsp;&nbsp;</label>
+      <input type="text" name="work"/><br />
+      <label for="point">ตำแหน่ง&nbsp;&nbsp;</label>
+      <input type="text" name="point"/><br />
+      <label for="start">ตั้งแต่เดือน&nbsp;&nbsp;</label>
+      <input type="text" name="start"/>&nbsp;
+      <label for="years">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="years"/>&nbsp;
+      <label for="end">ถึงเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="end"/>&nbsp;
+      <label for="yearss">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="yearss"/>&nbsp;
+      <label for="money">เงินเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="money">บาท<br />
+      <label for="out">สาเหตุที่ออก&nbsp;</label>
+      <input type="text" name="out">
+      <br /><br />
+      <label for="work">สถานที่ทำงาน&nbsp;&nbsp;</label>
+      <input type="text" name="work"/><br />
+      <label for="point">ตำแหน่ง&nbsp;&nbsp;</label>
+      <input type="text" name="point"/><br />
+      <label for="start">ตั้งแต่เดือน&nbsp;&nbsp;</label>
+      <input type="text" name="start"/>&nbsp;
+      <label for="years">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="years"/>&nbsp;
+      <label for="end">ถึงเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="end"/>&nbsp;
+      <label for="yearss">ปี&nbsp;&nbsp;</label>
+      <input type="text" name="yearss"/>&nbsp;
+      <label for="money">เงินเดือน&nbsp;&nbsp;</label>
+      <input type="text" name="money">บาท<br />
+      <label for="out">สาเหตุที่ออก&nbsp;</label>
+      <input type="text" name="out">
+      <br />
+    </div>
+    <div>
+      <h4><b>5.ภาษา</b></h4>
+      <label for="eng">ภาษาอังกฤษ</label><br />
+        <label for="talk">พูด</label>
+          <input type="radio" name="level" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level" value="good"/>&nbsp;ดี
+          <input type="radio" name="level" value="med"/>&nbsp;พอใช้<br />
+        <label for="read">อ่าน</label>
+          <input type="radio" name="level1" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level1" value="good"/>&nbsp;ดี
+          <input type="radio" name="level1" value="med"/>&nbsp;พอใช้<br />
+        <label for="write">เขียน</label>
+          <input type="radio" name="level2" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level2" value="good"/>&nbsp;ดี
+          <input type="radio" name="level2" value="med"/>&nbsp;พอใช้<br />
+      <label for="another">ภาษาอื่นๆ ระบุ&nbsp;</label>
+      <input type="text" name="another"><br />
+        <label for="talks">พูด</label>
+          <input type="radio" name="level3" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level3" value="good"/>&nbsp;ดี
+          <input type="radio" name="level3" value="med"/>&nbsp;พอใช้<br />
+        <label for="reads">อ่าน</label>
+          <input type="radio" name="level4" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level4" value="good"/>&nbsp;ดี
+          <input type="radio" name="level4" value="med"/>&nbsp;พอใช้<br />
+        <label for="writes">เขียน</label>
+          <input type="radio" name="level5" value="best"/>&nbsp;ดีมาก
+          <input type="radio" name="level5" value="good"/>&nbsp;ดี
+          <input type="radio" name="level5" value="med"/>&nbsp;พอใช้
+      <br />
+    </div>
+    <div>
+      <h4><b>6.ความรู้ทางคอมพิวเตอร์&nbsp;&nbsp;&nbsp;ระบุ</b></h4>
+      <label for="box"></label>
+      <FORM NAME="INPUT"ระบุ>
+      <TEXTAREA NAME="COMMENT"COLS=100 ROW=80></TEXTAREA>
+    </div>
+    <div>
+      <label for="box2"></label>
+      <h4><b>7.ผลงงานทางวิชาการ&nbsp;&nbsp;&nbsp;ระบุ</b></h4>
+      <FORM NAME="INPUT"ระบุ>
+      <TEXTAREA NAME="COMMENT"COLS=100 ROW=80></TEXTAREA>
+   </FORM>
+    </div>
+    <div>
+      <h4><b>8.ประสบการณ์พิเศษอื่นๆ&nbsp;&nbsp;&nbsp;ระบุ</b></h4>
+      <label for="box3"></label>
+      <FORM NAME="INPUT"ระบุ>
+      <TEXTAREA NAME="COMMENT"COLS=100 ROW=80></TEXTAREA>
+      <br /><br /><br />
+    </div>
+    <div align="right">
+      <label for="names">ลงชื่อ&nbsp;&nbsp;</label>
+      <input type="text" name="names"/>&nbsp;&nbsp;ผู้สมัคร<br /><br />
+      <label for="fullname">(&nbsp;&nbsp;</label>
+      <input type="text" name="fullname">&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;<br />
+      <label for="days"></label>
+      <input type="text" name="days">&nbsp;&nbsp;/
+      <label for="mon"></label>
+      <input type="text" name="mon">&nbsp;&nbsp;/
+      <label for="yea"></label>
+      <input type="text" name="yea">&nbsp;&nbsp;
+      <br />
+    <div/>
+    <div align="left">
+      <h3>หมายเหต  <h4>กรอกข้อมูลให้ได้รายละเอียดมากที่สุด เพื่อประโยชน์ของท่านเองและสามารถแนบประวัติและเอกสารอื่น ๆ
+ เพื่อใช้เป็นข้อมูลในการพิจารณาตัวท่านเพิ่มเติมพร้อมกับใบสมัครได</h4></h3>
+    </div>
